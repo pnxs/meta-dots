@@ -1,0 +1,10 @@
+Index: git/tools/parser/dcg.py
+===================================================================
+--- git.orig/import/dcg/bin/dcg.py
++++ git/import/dcg/bin/dcg.py
+@@ -1,4 +1,4 @@
+-#!/usr/bin/env python
++#!/usr/bin/env nativepython
+ 
+ """
+ Dots Code Generator

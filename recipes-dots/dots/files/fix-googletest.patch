@@ -1,0 +1,38 @@
+Index: git/import/googletest/googletest/CMakeLists.txt
+===================================================================
+--- git.orig/import/googletest/googletest/CMakeLists.txt
++++ git/import/googletest/googletest/CMakeLists.txt
+@@ -102,10 +102,10 @@ endif()
+ ########################################################################
+ #
+ # Install rules
+-install(TARGETS gtest gtest_main
+-  DESTINATION lib)
+-install(DIRECTORY ${gtest_SOURCE_DIR}/include/gtest
+-  DESTINATION include)
++#install(TARGETS gtest gtest_main
++#  DESTINATION lib)
++#install(DIRECTORY ${gtest_SOURCE_DIR}/include/gtest
++#  DESTINATION include)
+ 
+ ########################################################################
+ #
+Index: git/import/googletest/googlemock/CMakeLists.txt
+===================================================================
+--- git.orig/import/googletest/googlemock/CMakeLists.txt
++++ git/import/googletest/googlemock/CMakeLists.txt
+@@ -103,10 +103,10 @@ endif()
+ ########################################################################
+ #
+ # Install rules
+-install(TARGETS gmock gmock_main
+-  DESTINATION lib)
+-install(DIRECTORY ${gmock_SOURCE_DIR}/include/gmock
+-  DESTINATION include)
++#install(TARGETS gmock gmock_main
++#  DESTINATION lib)
++#install(DIRECTORY ${gmock_SOURCE_DIR}/include/gmock
++#  DESTINATION include)
+ 
+ ########################################################################
+ #

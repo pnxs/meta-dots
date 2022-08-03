@@ -1,0 +1,9 @@
+[Unit]
+Description=DOTS web connector
+Requisite=dotsd.service
+After=dotsd.service dots-descriptor-publisher.service
+
+[Service]
+Environment=LOGGING_LEVEL=4
+ExecStart=/usr/sbin/dots-web-connector
+

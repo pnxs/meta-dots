@@ -1,0 +1,10 @@
+[Unit]
+Description=DOTS default-object loader
+Requisite=dotsd.service
+Before=dots-persistd.service
+After=dotsd.service dots-descriptor-publisher.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/dots_record -j /etc/dots/default-objects
+

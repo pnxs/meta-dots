@@ -1,0 +1,13 @@
+[Unit]
+Description=DOTS daemon
+
+[Service]
+Environment=LOGGING_BACKEND=syslog LOGGING_LEVEL=4
+ExecStart=/usr/sbin/dotsd --dots-address 0.0.0.0
+ExecStartPost=/bin/sleep 1
+#Restart=always
+#RestartSec=4
+Nice=-6
+
+[Install]
+Alias=dotsd.service

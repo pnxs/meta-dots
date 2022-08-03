@@ -1,0 +1,9 @@
+[Unit]
+Description=DOTS descriptor publisher
+Requisite=dotsd.service
+After=dotsd.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/dots_record -j /etc/dots/descriptors
+
