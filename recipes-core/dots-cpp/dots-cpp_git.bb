@@ -52,3 +52,4 @@ FILES:${PN}-dev += "${datadir}/cmake/Modules/*.cmake \
                    "
 
 SYSTEMD_SERVICE:${PN} = "dotsd.service"
+SYSTEMD_AUTO_ENABLE = "enable"

@@ -11,3 +11,4 @@ Nice=-6
 
 [Install]
 Alias=dotsd.service
+WantedBy=multi-user.target
