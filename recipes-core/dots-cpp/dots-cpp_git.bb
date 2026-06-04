@@ -6,9 +6,9 @@ DEPENDS += "boost dots-dcg-native rapidjson"
 PV = "1.8.1-git${SRCREV}"
 PR = "r1"
 
-# DOTS 1.8.1
-SRCREV = "4baddf66420db0da8674e62fcb36c963d22e613c"
-SRCBRANCH = "update-boost-and-gcc"
+# DOTS 1.9.0
+SRCREV = "c9ae366bcafd24c31f39aa14830380c4982cf910"
+SRCBRANCH = "dots-any-type-field"
 
 SRC_URI = "gitsm://github.com/pnxs/dots-cpp.git;protocol=https;branch=${SRCBRANCH} \
          file://dotsd.service \
