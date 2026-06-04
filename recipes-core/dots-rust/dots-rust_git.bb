@@ -15,7 +15,7 @@ LIC_FILES_CHKSUM = "file://Cargo.toml;beginline=8;endline=8;md5=b488c92c1188c26e
 PV = "0.1.0+git${SRCPV}"
 PR = "r0"
 
-SRCREV = "7d9fbb4cac413e38b5936aea42cf998bcc6499d2"
+SRCREV = "a0445306e06d6e2758fe7181ad32f9aff4beab4f"
 SRCBRANCH = "master"
 
 SRC_URI = "git://github.com/pnxs/dots-rust.git;protocol=https;branch=${SRCBRANCH}"
