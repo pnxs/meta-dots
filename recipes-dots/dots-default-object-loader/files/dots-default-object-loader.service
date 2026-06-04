@@ -6,5 +6,5 @@ After=dotsd.service dots-descriptor-publisher.service
 
 [Service]
 Type=oneshot
-ExecStart=/usr/bin/dots_record -j /etc/dots/default-objects
+ExecStart=/usr/bin/dots load -j /etc/dots/default-objects
 
