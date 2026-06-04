@@ -5,5 +5,5 @@ After=dotsd.service
 
 [Service]
 Type=oneshot
-ExecStart=/usr/bin/dots_record -j /etc/dots/descriptors
+ExecStart=/usr/bin/dots load -j /etc/dots/descriptors
 
