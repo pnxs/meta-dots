@@ -3,7 +3,8 @@ Description=DOTS daemon
 
 [Service]
 Environment=LOGGING_BACKEND=syslog LOGGING_LEVEL=4
-ExecStart=/usr/sbin/dotsd --dots-address 0.0.0.0
+Environment="DOTS_ENDPOINT=tcp://0.0.0.0:11235 uds:/run/dotsd.socket"
+ExecStart=/usr/sbin/dotsd
 ExecStartPost=/bin/sleep 1
 #Restart=always
 #RestartSec=4
