@@ -10,13 +10,13 @@ LICENSE = "LGPL-3.0-only"
 
 # dots-rust ships no dedicated license file; the SPDX identifier is declared in
 # the workspace manifest, so the license is pinned against that line.
-LIC_FILES_CHKSUM = "file://Cargo.toml;beginline=8;endline=8;md5=b488c92c1188c26e394ba1d28c78bbdf"
+LIC_FILES_CHKSUM = "file://Cargo.toml;beginline=8;endline=8;md5=a628266ae1ecb8b3e3cf4d28cab77eb8"
 
 PV = "0.1.0+git${SRCPV}"
 PR = "r0"
 
-SRCREV = "a0445306e06d6e2758fe7181ad32f9aff4beab4f"
-SRCBRANCH = "master"
+SRCREV = "cb2f3e698a74ade617e4adaf77c9fe073eca43b4"
+SRCBRANCH = "prepare-crates-io-publication"
 
 SRC_URI = "git://github.com/pnxs/dots-rust.git;protocol=https;branch=${SRCBRANCH}"
 
